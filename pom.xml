@@ -41,21 +41,15 @@
 	</dependencies>
 
 	<build>
-
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<skip>true</skip>
-				</configuration>
-				<executions>
-					<execution>
-						<phase>none</phase>
-					</execution>
-				</executions>
+				<version>2.7.2</version>
 			</plugin>
 		</plugins>
+
+
 
 	</build>
 
